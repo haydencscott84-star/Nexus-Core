@@ -1,0 +1,12 @@
+spawn scp -o StrictHostKeyChecking=no /Users/haydenscott/Desktop/Local Scripts/test_get_chain.py root@<YOUR_VPS_IP>:/root/
+
+root@<YOUR_VPS_IP>'s password: 
+
+test_get_chain.py                               0%    0     0.0KB/s   --:-- ETA
+test_get_chain.py                               0%    0     0.0KB/s   --:-- ETA
+test_get_chain.py                             100%  778     0.5KB/s   00:01    
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> python3 /root/test_get_chain.py
+
+root@<YOUR_VPS_IP>'s password: 
+Testing GET_CHAIN to local TS Nexus Gateway...
+SUCCESS: IV=21.06%, IVR=92.03, Chains Fetched: 19

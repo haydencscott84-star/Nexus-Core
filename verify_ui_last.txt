@@ -1,0 +1,63 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tail -n 60 /root/nexus_engine.log
+
+root@<YOUR_VPS_IP>'s password: 
+[16:51:52] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8b`\xab']
+[16:51:52] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xac']
+[16:51:52] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8b`\xad']
+[16:51:52] DEBUG: Fetching positions for 11741346...
+[16:51:52] RAW POSITIONS for 11741346: []
+[16:51:53] HEARTBEAT: SPY=$668.58 | Risk Rules: 23 | RAM: GC OK
+[16:51:53] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:51:53] DEBUG: Fetching positions for 210VGM01...
+[16:51:54] RAW POSITIONS for 210VGM01: []
+[16:51:54] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xae']
+[16:51:55] CMD RECEIVED: {'cmd': 'GET_MULTI_QUOTE', 'symbols': ['SPY 260319C683', 'SPY 260319C688']} [ID: b'\x00k\x8b`\xaf']
+[16:51:55] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8b`\xb0']
+[16:51:56] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:51:56] DEBUG: Fetching positions for 210VGM01...
+[16:51:56] RAW POSITIONS for 210VGM01: []
+[16:51:56] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xb1']
+[16:51:57] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8b`\xb2']
+[16:51:57] DEBUG: Fetching positions for 11741346...
+[16:51:57] RAW POSITIONS for 11741346: [{'AccountID': '11741346', 'AveragePrice': '2.93', 'AssetType': 'STOCKOPTION', 'Last': '2.8', 'Bid': '2.69', 'Ask': '2.72', 'ExpirationDate': '2026-03-19T00:00:00Z', 'ConversionRate': '1', 'DayTradeRequirement': '5000', 'InitialRequirement': '5000', 'MaintenanceMargin': '0', 'PositionID': '272793273', 'LongShort': 'Short', 'Quantity': '-10', 'Symbol': 'SPY 260319C683', 'Timestamp': '2026-03-12T16:17:51Z', 'TodaysProfitLoss': '210', 'TotalCost': '2930', 'MarketValue': '-2720', 'MarkToMarketPrice': '2.93', 'UnrealizedProfitLoss': '210', 'UnrealizedProfitLossPercent': '7.167', 'UnrealizedProfitLossQty': '21'}, {'AccountID': '11741346', 'AveragePrice': '1.5', 'AssetType': 'STOCKOPTION', 'Last': '1.32', 'Bid': '1.32', 'Ask': '1.34', 'ExpirationDate': '2026-03-19T00:00:00Z', 'ConversionRate': '1', 'DayTradeRequirement': '0', 'InitialRequirement': '0', 'MaintenanceMargin': '0', 'PositionID': '272793274', 'LongShort': 'Long', 'Quantity': '10', 'Symbol': 'SPY 260319C688', 'Timestamp': '2026-03-12T16:17:51Z', 'TodaysProfitLoss': '-180', 'TotalCost': '1500', 'MarketValue': '1320', 'MarkToMarketPrice': '1.5', 'UnrealizedProfitLoss': '-180', 'UnrealizedProfitLossPercent': '-12', 'UnrealizedProfitLossQty': '-18'}]
+[16:51:58] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:51:58] DEBUG: Fetching positions for 210VGM01...
+[16:51:58] RAW POSITIONS for 210VGM01: []
+[16:51:58] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8b`\xb3']
+[16:51:58] ðµ️ [AUTO-MGR] Checking SPY260319C683 (CREDIT) | Net P/L: 2.1% (Qty: 10)
+[16:51:58] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xb4']
+[16:51:58] HEARTBEAT: SPY=$668.65 | Risk Rules: 23 | RAM: GC OK
+[16:51:58] RISK CHECK: Scanning 23 rules against SPY 668.65
+[16:52:00] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:52:00] DEBUG: Fetching positions for 210VGM01...
+[16:52:00] RAW POSITIONS for 210VGM01: []
+[16:52:00] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xb5']
+[16:52:01] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8b`\xb6']
+[16:52:02] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:52:02] DEBUG: Fetching positions for 210VGM01...
+[16:52:03] RAW POSITIONS for 210VGM01: []
+[16:52:03] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xb7']
+[16:52:03] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8b`\xb8']
+[16:52:03] DEBUG: Fetching positions for 11741346...
+[16:52:03] RAW POSITIONS for 11741346: [{'AccountID': '11741346', 'AveragePrice': '2.93', 'AssetType': 'STOCKOPTION', 'Last': '2.8', 'Bid': '2.69', 'Ask': '2.72', 'ExpirationDate': '2026-03-19T00:00:00Z', 'ConversionRate': '1', 'DayTradeRequirement': '5000', 'InitialRequirement': '5000', 'MaintenanceMargin': '0', 'PositionID': '272793273', 'LongShort': 'Short', 'Quantity': '-10', 'Symbol': 'SPY 260319C683', 'Timestamp': '2026-03-12T16:17:51Z', 'TodaysProfitLoss': '210', 'TotalCost': '2930', 'MarketValue': '-2720', 'MarkToMarketPrice': '2.93', 'UnrealizedProfitLoss': '210', 'UnrealizedProfitLossPercent': '7.167', 'UnrealizedProfitLossQty': '21'}, {'AccountID': '11741346', 'AveragePrice': '1.5', 'AssetType': 'STOCKOPTION', 'Last': '1.32', 'Bid': '1.32', 'Ask': '1.34', 'ExpirationDate': '2026-03-19T00:00:00Z', 'ConversionRate': '1', 'DayTradeRequirement': '0', 'InitialRequirement': '0', 'MaintenanceMargin': '0', 'PositionID': '272793274', 'LongShort': 'Long', 'Quantity': '10', 'Symbol': 'SPY 260319C688', 'Timestamp': '2026-03-12T16:17:51Z', 'TodaysProfitLoss': '-180', 'TotalCost': '1500', 'MarketValue': '1320', 'MarkToMarketPrice': '1.5', 'UnrealizedProfitLoss': '-180', 'UnrealizedProfitLossPercent': '-12', 'UnrealizedProfitLossQty': '-18'}]
+[16:52:03] HEARTBEAT: SPY=$668.66 | Risk Rules: 23 | RAM: GC OK
+[16:52:04] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8b`\xb9']
+[16:52:05] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:52:05] DEBUG: Fetching positions for 210VGM01...
+[16:52:05] RAW POSITIONS for 210VGM01: []
+[16:52:05] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xba']
+[16:52:07] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:52:07] DEBUG: Fetching positions for 210VGM01...
+[16:52:07] RAW POSITIONS for 210VGM01: []
+[16:52:07] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xbb']
+[16:52:08] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8b`\xbc']
+[16:52:08] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8b`\xbd']
+[16:52:08] DEBUG: Fetching positions for 11741346...
+[16:52:08] RAW POSITIONS for 11741346: [{'AccountID': '11741346', 'AveragePrice': '2.93', 'AssetType': 'STOCKOPTION', 'Last': '2.8', 'Bid': '2.69', 'Ask': '2.72', 'ExpirationDate': '2026-03-19T00:00:00Z', 'ConversionRate': '1', 'DayTradeRequirement': '5000', 'InitialRequirement': '5000', 'MaintenanceMargin': '0', 'PositionID': '272793273', 'LongShort': 'Short', 'Quantity': '-10', 'Symbol': 'SPY 260319C683', 'Timestamp': '2026-03-12T16:17:51Z', 'TodaysProfitLoss': '210', 'TotalCost': '2930', 'MarketValue': '-2720', 'MarkToMarketPrice': '2.93', 'UnrealizedProfitLoss': '210', 'UnrealizedProfitLossPercent': '7.167', 'UnrealizedProfitLossQty': '21'}, {'AccountID': '11741346', 'AveragePrice': '1.5', 'AssetType': 'STOCKOPTION', 'Last': '1.32', 'Bid': '1.32', 'Ask': '1.34', 'ExpirationDate': '2026-03-19T00:00:00Z', 'ConversionRate': '1', 'DayTradeRequirement': '0', 'InitialRequirement': '0', 'MaintenanceMargin': '0', 'PositionID': '272793274', 'LongShort': 'Long', 'Quantity': '10', 'Symbol': 'SPY 260319C688', 'Timestamp': '2026-03-12T16:17:51Z', 'TodaysProfitLoss': '-180', 'TotalCost': '1500', 'MarketValue': '1320', 'MarkToMarketPrice': '1.5', 'UnrealizedProfitLoss': '-180', 'UnrealizedProfitLossPercent': '-12', 'UnrealizedProfitLossQty': '-18'}]
+[16:52:08] HEARTBEAT: SPY=$668.62 | Risk Rules: 23 | RAM: GC OK
+[16:52:08] RISK CHECK: Scanning 23 rules against SPY 668.62
+[16:52:09] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[16:52:09] DEBUG: Fetching positions for 210VGM01...
+[16:52:09] RAW POSITIONS for 210VGM01: []
+[16:52:09] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8b`\xbe']
+[16:52:11] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8b`\xbf']

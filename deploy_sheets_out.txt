@@ -1,0 +1,12 @@
+spawn scp -o StrictHostKeyChecking=no /Users/haydenscott/Desktop/Local Scripts/nexus_sheets_bridge.py root@<YOUR_VPS_IP>:/root/
+
+root@<YOUR_VPS_IP>'s password: 
+
+nexus_sheets_bridge.py                          0%    0     0.0KB/s   --:-- ETA
+nexus_sheets_bridge.py                        100%   24KB 130.2KB/s   00:00    
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> python3 /root/nexus_sheets_bridge.py --test-orats
+
+root@<YOUR_VPS_IP>'s password: 
+ð NEXUS SHEETS BRIDGE: v2.2 (Account Dump Automation)
+ð TRIGGERING ORATS EOD OI DUMP (16:30)
+✅ ORATS EOD DUMP COMPLETE: 7096 records injected into 'Historical Data'.

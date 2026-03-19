@@ -1,0 +1,61 @@
+spawn scp -o StrictHostKeyChecking=no /Users/haydenscott/Desktop/Local Scripts/test_get_chain.py root@<YOUR_VPS_IP>:/root/
+
+root@<YOUR_VPS_IP>'s password: 
+
+test_get_chain.py                               0%    0     0.0KB/s   --:-- ETA
+test_get_chain.py                             100%  957     1.2KB/s   00:00    
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> python3 /root/test_get_chain.py
+
+root@<YOUR_VPS_IP>'s password: 
+Testing GET_CHAIN with {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '680', 'width': '5', 'type': 'CALL'}...
+SUCCESS: IV=20.12%, IVR=90.84, Chains Fetched: 20
+FIRST FEW ROWS: [
+  {
+    "expiry": "2026-03-12",
+    "dte": 0,
+    "short": 680.0,
+    "long": 685.0,
+    "credit": 0.02,
+    "risk": 4.98,
+    "rr": 0.4,
+    "breakeven": 680.02,
+    "short_sym": "SPY 260312C680",
+    "long_sym": "SPY 260312C685",
+    "bid_short": 0.04,
+    "ask_short": 0.05,
+    "bid_long": 0.01,
+    "ask_long": 0.02
+  },
+  {
+    "expiry": "2026-03-13",
+    "dte": 1,
+    "short": 680.0,
+    "long": 685.0,
+    "credit": 0.34,
+    "risk": 4.66,
+    "rr": 7.3,
+    "breakeven": 680.34,
+    "short_sym": "SPY 260313C680",
+    "long_sym": "SPY 260313C685",
+    "bid_short": 0.48,
+    "ask_short": 0.49,
+    "bid_long": 0.13,
+    "ask_long": 0.14
+  },
+  {
+    "expiry": "2026-03-16",
+    "dte": 4,
+    "short": 680.0,
+    "long": 685.0,
+    "credit": 1.05,
+    "risk": 3.95,
+    "rr": 26.6,
+    "breakeven": 681.05,
+    "short_sym": "SPY 260316C680",
+    "long_sym": "SPY 260316C685",
+    "bid_short": 1.7,
+    "ask_short": 1.72,
+    "bid_long": 0.64,
+    "ask_long": 0.65
+  }
+]

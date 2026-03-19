@@ -1,0 +1,6 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> python3 /root/nexus_sheets_bridge.py --test-orats > /root/orats_test_out.txt 2>&1; cat /root/orats_test_out.txt
+
+root@<YOUR_VPS_IP>'s password: 
+ð NEXUS SHEETS BRIDGE: v2.2 (Account Dump Automation)
+ð TRIGGERING ORATS EOD OI DUMP (16:30)
+✅ ORATS EOD DUMP COMPLETE: 7096 records injected into 'Historical Data'.

@@ -1,0 +1,4 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tmux capture-pane -t nexus:16 -p | grep -iE 'loading|magnet|trajectory|analyze'
+
+root@<YOUR_VPS_IP>'s password: 
+                   SPY: $666.06 +0.00%  |  Net Prem: -$1.33B  |  IV:22.1% (IVR:0)  |  ATR:9.40  |  RSI:35.5 | Magnet: $670.00  |  Nexus: CONNECTED  |  SLEEPING (Next scan: 27m)  |  00:50:30 ET

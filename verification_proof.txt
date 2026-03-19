@@ -1,0 +1,7 @@
+{
+  "action": "HOLD",
+  "win_probability": "70%",
+  "threat_level": "MED",
+  "primary_threat": "Ongoing GEX-induced price suppression (Trojan Horse) causing temporary P/L headwinds, despite underlying bearish flow.",
+  "reasoning": "The 'Trojan Horse' divergence is active: heavy bearish flow (SPX <3DTE Net: -$200M) is attacking the positive GEX walls (SPX +10B, SPY +5B). Critical protocol dictates to IGNORE THE GEX SUPPORT, as it is expected to fail and lead to a 'violent snap' lower. This overrides the general warning for shorts regarding positive GEX. While current price suppression contributes to a -8.30% P/L, the structural bearish bias is reinforced, and the position's Delta (-246.51) remains strong. The Alert Level is GREEN, and Greek analysis does not trigger an immediate HEDGE or CLOSE."
+}

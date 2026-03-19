@@ -1,0 +1,3 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> top -b -n 1 | grep ts_nexus.py && tail -n 60 /root/nexus_engine.log
+
+root@<YOUR_VPS_IP>'s password: 

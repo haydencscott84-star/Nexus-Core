@@ -1,0 +1,5 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> ls -lah /root/nexus_history.json && tmux capture-pane -t nexus:19 -p | grep -iE 'loading|magnet|trajectory'
+
+root@<YOUR_VPS_IP>'s password: 
+-rw-r--r-- 1 root root 729 Mar 13 04:41 /root/nexus_history.json
+SPX: $6,672.62 (SPY ~$666.06) [Spread: +12.02] +0.00% | Net Flow: +$6.18B | Magnet: $6700 | IVR: 0% | Range: 6257-7088 (IV:21.7%)                    REFRESH         SNAPSHOT                     Next Scan: 154s

@@ -1,0 +1,53 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tail -n 50 /root/loader_debug.log
+
+root@<YOUR_VPS_IP>'s password: 
+LOADING: spy_snapshot_2026-03-13_044103.csv
+SOURCE: spx | Cutoff: 2026-03-13 00:00:00 | Found: 50 files
+LOADING: spx_snapshot_2026-03-13_044103.csv
+CONCATENATING 2 DATAFRAMES...
+CONCAT DONE. ROWS: 39626
+STARTING PERSISTENCE ANALYSIS...
+PERSISTENCE DONE.
+SOURCE: spy | Cutoff: 2026-03-08 00:00:00 | Found: 50 files
+LOADING: spy_snapshot_2026-03-08_232851.csv
+LOADING: spy_snapshot_2026-03-09_232851.csv
+LOADING: spy_snapshot_2026-03-10_233747.csv
+LOADING: spy_snapshot_2026-03-11_233746.csv
+LOADING: spy_snapshot_2026-03-12_234103.csv
+LOADING: spy_snapshot_2026-03-13_044103.csv
+SOURCE: spx | Cutoff: 2026-03-08 00:00:00 | Found: 50 files
+LOADING: spx_snapshot_2026-03-08_232851.csv
+LOADING: spx_snapshot_2026-03-09_232851.csv
+LOADING: spx_snapshot_2026-03-10_233747.csv
+LOADING: spx_snapshot_2026-03-11_233746.csv
+LOADING: spx_snapshot_2026-03-12_234103.csv
+LOADING: spx_snapshot_2026-03-13_044103.csv
+CONCATENATING 12 DATAFRAMES...
+CONCAT DONE. ROWS: 237684
+BUILDING KILL BOX...
+KILL BOX BUILT.
+SOURCE: spy | Cutoff: 2026-03-13 00:00:00 | Found: 50 files
+LOADING: spy_snapshot_2026-03-13_045504.csv
+SOURCE: spx | Cutoff: 2026-03-13 00:00:00 | Found: 50 files
+LOADING: spx_snapshot_2026-03-13_045504.csv
+CONCATENATING 2 DATAFRAMES...
+CONCAT DONE. ROWS: 39626
+STARTING PERSISTENCE ANALYSIS...
+PERSISTENCE DONE.
+SOURCE: spy | Cutoff: 2026-03-08 00:00:00 | Found: 50 files
+LOADING: spy_snapshot_2026-03-08_232851.csv
+LOADING: spy_snapshot_2026-03-09_232851.csv
+LOADING: spy_snapshot_2026-03-10_233747.csv
+LOADING: spy_snapshot_2026-03-11_233746.csv
+LOADING: spy_snapshot_2026-03-12_234103.csv
+LOADING: spy_snapshot_2026-03-13_045504.csv
+SOURCE: spx | Cutoff: 2026-03-08 00:00:00 | Found: 50 files
+LOADING: spx_snapshot_2026-03-08_232851.csv
+LOADING: spx_snapshot_2026-03-09_232851.csv
+LOADING: spx_snapshot_2026-03-10_233747.csv
+LOADING: spx_snapshot_2026-03-11_233746.csv
+LOADING: spx_snapshot_2026-03-12_234103.csv
+LOADING: spx_snapshot_2026-03-13_045504.csv
+CONCATENATING 12 DATAFRAMES...
+CONCAT DONE. ROWS: 237684
+BUILDING KILL BOX...

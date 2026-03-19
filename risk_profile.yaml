@@ -1,0 +1,29 @@
+# SPY Directional Swing Profile
+# Strategy: Stock Replacement / Deep ITM
+# Goal: High Delta, Low Theta, tightest possible spreads.
+
+risk_rules:
+  # 1. TIME HORIZON
+  # Avoid "Gamma Risk" of short-term options. 
+  # We want 45-90 days to let the thesis play out without time crushing us.
+  min_dte: 40
+  max_dte: 90
+
+  # 2. DIRECTIONAL EXPOSURE (DELTA)
+  # 0.70+ ensures we make money on small moves. 
+  # We avoid "lottos" (0.20 delta) that require a 3% market crash to pay out.
+  min_delta: 0.70
+  max_delta: 0.95
+
+  # 3. LIQUIDITY (CRITICAL FOR SPY)
+  # SPY is liquid. 
+  # New Rule: Allow low volume if Open Interest is high (Smart Liquidity).
+  max_spread_pct: 0.015  # Max 1.5% spread (e.g. $0.30 on $20.00)
+  min_open_interest: 500
+  min_volume: 50
+  min_oi_to_ignore_volume: 1000 # If OI > 1000, ignore volume requirement
+
+  # 4. VALUE BUYING (VOLATILITY)
+  # Don't buy when IV is historically high (expensive premiums).
+  # We prefer buying when the market is calm (Low IV) before the storm.
+  max_iv_rank: 60  # Only buy if IV is in the lower 60% of its yearly range

@@ -1,0 +1,293 @@
+spawn scp -o StrictHostKeyChecking=no /Users/haydenscott/Desktop/Local Scripts/test_multi_quote.py root@<YOUR_VPS_IP>:/root/
+
+root@<YOUR_VPS_IP>'s password: 
+
+test_multi_quote.py                             0%    0     0.0KB/s   --:-- ETA
+test_multi_quote.py                           100%  840     1.2KB/s   00:00    
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> python3 /root/test_multi_quote.py
+
+root@<YOUR_VPS_IP>'s password: 
+Testing GET_MANAGED_SPREADS...
+MANAGED SPREADS: {
+  "status": "ok",
+  "spreads": [
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260206P675",
+      "long_sym": "SPY 260206P670",
+      "qty": 4,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "stop_trigger": 674.5,
+      "last_check_log": 1769531503.3203495
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260220C705",
+      "long_sym": "SPY 260220C675",
+      "qty": 11,
+      "armed": true,
+      "is_put": false,
+      "side": "BUY",
+      "is_bullish": true,
+      "stop_trigger": 668.25,
+      "last_check_log": 1769443031.4883635
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260206P680",
+      "long_sym": "SPY 260206P675",
+      "qty": 10,
+      "stop_trigger": 680.5,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260206P681",
+      "long_sym": "SPY 260206P670",
+      "qty": 5,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "stop_trigger": 680.5,
+      "last_check_log": 1769531503.3205633
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260130P681",
+      "long_sym": "SPY 260130P689",
+      "qty": 5,
+      "armed": true,
+      "is_put": true,
+      "side": "BUY",
+      "is_bullish": false,
+      "stop_trigger": 702.78,
+      "last_check_log": 1769438000.0897186
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260130P605",
+      "long_sym": "SPY 260130P600",
+      "qty": 1,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "stop_trigger": 604.5
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260206C704",
+      "long_sym": "SPY 260206C694",
+      "qty": 5,
+      "armed": true,
+      "is_put": false,
+      "side": "BUY",
+      "is_bullish": true,
+      "stop_trigger": 687.06,
+      "last_check_log": 1769625438.5381281
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260130C705",
+      "long_sym": "SPY 260130C695",
+      "qty": 2,
+      "armed": true,
+      "is_put": false,
+      "side": "BUY",
+      "is_bullish": true,
+      "stop_trigger": 688.05,
+      "last_check_log": 1769623456.281718
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260206C708",
+      "long_sym": "SPY 260206C694",
+      "qty": 3,
+      "armed": true,
+      "is_put": false,
+      "side": "BUY",
+      "is_bullish": true,
+      "stop_trigger": 687.06
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260306P675",
+      "long_sym": "SPY 260306P670",
+      "qty": 15,
+      "stop_trigger": 675.5,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "last_check_log": 1770653906.1256163
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260306C699",
+      "long_sym": "SPY 260306C704",
+      "qty": 20,
+      "stop_trigger": 699.5,
+      "armed": true,
+      "is_put": false,
+      "side": "SELL",
+      "is_bullish": false,
+      "last_check_log": 1770826973.8199394
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260213P690",
+      "long_sym": "SPY 260213P695",
+      "qty": 5,
+      "armed": true,
+      "is_put": true,
+      "side": "BUY",
+      "is_bullish": false,
+      "stop_trigger": 708.9,
+      "last_check_log": 1770756549.8741488
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260306P685",
+      "long_sym": "SPY 260306P680",
+      "qty": 20,
+      "stop_trigger": 685.5,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "last_check_log": 1770928535.2758226
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260306C705",
+      "long_sym": "SPY 260306C710",
+      "qty": 20,
+      "stop_trigger": 705.5,
+      "armed": false,
+      "is_put": false,
+      "side": "SELL",
+      "is_bullish": false,
+      "last_check_log": 1772118951.7988975
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260306P672",
+      "long_sym": "SPY 260306P667",
+      "qty": 20,
+      "stop_trigger": 672.5,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "last_check_log": 1772551096.2756624
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260320C705",
+      "long_sym": "SPY 260320C710",
+      "qty": 20,
+      "stop_trigger": 705.5,
+      "armed": false,
+      "is_put": false,
+      "side": "SELL",
+      "is_bullish": false,
+      "last_check_log": 1772548261.3761897
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260306P679",
+      "long_sym": "SPY 260306P674",
+      "qty": 10,
+      "stop_trigger": 679.5,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "last_check_log": 1772548508.979268
+    },
+    {
+      "type": "SPREAD",
+
+      "short_sym": "SPY 260306C695",
+      "long_sym": "SPY 260306C700",
+      "qty": 10,
+      "stop_trigger": 695.5,
+      "armed": true,
+      "is_put": false,
+      "side": "SELL",
+      "is_bullish": false,
+      "last_check_log": 1772548261.3763278
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260309P665",
+      "long_sym": "SPY 260309P660",
+      "qty": 20,
+      "stop_trigger": 665.5,
+      "armed": true,
+      "is_put": true,
+      "side": "SELL",
+      "is_bullish": true,
+      "last_check_log": 1772561913.8794596
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260306C685",
+      "long_sym": "SPY 260306C690",
+      "qty": 10,
+      "stop_trigger": 685.5,
+      "armed": true,
+      "is_put": false,
+      "side": "SELL",
+      "is_bullish": false,
+      "last_check_log": 1772657782.4280417
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260313C686",
+      "long_sym": "SPY 260313C691",
+      "qty": 10,
+      "stop_trigger": 686.5,
+      "armed": false,
+      "is_put": false,
+      "side": "SELL",
+      "is_bullish": false,
+      "last_check_log": 1773063112.207261
+    },
+    {
+      "type": "SPREAD",
+      "short_sym": "SPY 260317C690",
+      "long_sym": "SPY 260317C695",
+      "qty": 10,
+      "stop_trigger": 690.5,
+      "armed": true,
+      "is_put": false,
+      "side": "SELL",
+      "is_bullish": false
+    }
+  ]
+}
+
+Testing GET_MULTI_QUOTE...
+MULTI_QUOTE: {
+  "status": "ok",
+  "quotes": {
+    "SPY 260313P660": {
+      "Bid": 1.43,
+      "Ask": 1.44,
+      "Last": 1.42
+    },
+    "SPY 260313P655": {
+      "Bid": 0.7,
+      "Ask": 0.71,
+      "Last": 0.7
+    }
+  }
+}

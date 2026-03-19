@@ -1,0 +1,4 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> cd /root/logs && cat ts_nexus.log | grep ORATS | tail -n 20
+
+root@<YOUR_VPS_IP>'s password: 
+cat: ts_nexus.log: No such file or directory

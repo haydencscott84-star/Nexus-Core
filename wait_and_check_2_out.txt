@@ -1,0 +1,6 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> date; ls -lah /root/nexus_history.json; tmux capture-pane -t nexus:8 -p | grep -m 1 'Last Updated:'
+
+root@<YOUR_VPS_IP>'s password: 
+Fri Mar 13 04:57:55 AM UTC 2026
+-rw-r--r-- 1 root root 729 Mar 13 04:57 /root/nexus_history.json
+ Market Regime:BEARISH FLOW  | SPX:$6,670.67  | SPY:$666.06  | RVOL:D:1.2x H:1.3x  | Div:NONE  Last Updated:00:56:57  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔

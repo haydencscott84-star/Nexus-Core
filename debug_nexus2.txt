@@ -1,0 +1,4 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> cat /root/nexus_engine.log | grep -iE 'err|exc|get_chain|traceback' | tail -n 50
+
+root@<YOUR_VPS_IP>'s password: 
+[14:38:54] CMD RECEIVED: {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '660', 'width': '5', 'type': 'PUT'} [ID: b'\x00k\x8bEg']

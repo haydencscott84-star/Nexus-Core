@@ -1,0 +1,17 @@
+spawn scp -o StrictHostKeyChecking=no /Users/haydenscott/Desktop/Local Scripts/test_ts_positions.py root@<YOUR_VPS_IP>:/root/
+
+root@<YOUR_VPS_IP>'s password: 
+
+test_ts_positions.py                            0%    0     0.0KB/s   --:-- ETAspawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> python3 /root/test_ts_positions.py
+
+root@<YOUR_VPS_IP>'s password: 
+Main Account (11741346) Raw Response:
+{
+  "Positions": [],
+  "Errors": []
+}
+Futures Account (210VGM01) Raw Response:
+{
+  "Positions": [],
+  "Errors": []
+}

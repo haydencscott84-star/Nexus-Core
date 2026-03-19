@@ -1,0 +1,48 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tmux capture-pane -t nexus:8 -p
+
+root@<YOUR_VPS_IP>'s password: 
+ Strategic Narrative:┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                     │ TRAJECTORY: BEARISH DRAG (Price < Pain) | Magnet: $670.00 | Drift: NEUTRAL
+ Market Regime:BEARISH FLOW  | SPX:$6,670.67  | SPY:$666.06  | RVOL:D:1.2x H:1.3x  | Div:NONE  Last Updated:00:42:11  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                                                                                                                          REFRESH
+                                                                                                                      ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ Whale/Retail Traps  Market Structure
+╸━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ STRIKE        DTE  DIST%  IMPACT      NET Δ       STATUS          PANIC
+ 6680 [667.0]  2d   0.14%  █           ð³ 134.1M   ð RESISTANCE   19.2 ð¥
+ 6680 [667.0]  2d   0.14%  ██          ð³ 300.6M   ð ROCKET FUEL  19.2 ð¥
+ 6680 [667.0]  4d   0.14%  █           ð³ 126.1M   TRAPPED BEARS   9.9                                                                                                                       ▅
+ 6680 [667.0]  4d   0.14%  ██          ð³ 209.6M   TRAPPED BULLS   9.9
+ 6680 [667.0]  3d   0.14%  █           ð³ 115.4M   ð ROCKET FUEL  10.1 ð¥
+ 6680 [667.0]  3d   0.14%  ██          ð³ 215.5M   ð RESISTANCE   10.1 ð¥
+ 6680 [667.0]  5d   0.14%  █           ð³ 33.7M    TRAPPED BULLS   8.1
+ 6680 [667.0]  5d   0.14%  █           ð³ 115.7M   TRAPPED BEARS   8.1
+ 6680 [667.0]  5d   0.14%  █           ð³ 101.9M   TRAPPED BEARS   8.3
+ 6680 [667.0]  5d   0.14%  █           ð³ 9.7M     TRAPPED BULLS   8.3
+ 6675 [666.5]  4d   0.06%  █           ð³ 101.9M   TRAPPED BULLS   9.7
+ 6675 [666.5]  4d   0.06%  ████        ð³ 424.8M   TRAPPED BEARS   9.7
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ STRIKE  DTE  DIST%  IMPACT      NET Δ       STATUS          PANIC
+ 668     2d   0.29%  █           ð³ 23.9M    TRAPPED BULLS   6.2
+ 668     2d   0.29%  ██          ð³ 182.6M   TRAPPED BEARS   6.2
+ 668     5d   0.29%  █           ð³ 88.8M    TRAPPED BEARS   3.4                                                                                                                             ▁
+ 668     5d   0.29%  █           ð³ 21.8M    TRAPPED BULLS   3.4
+ 668     3d   0.29%  █           ð³ 57.7M    TRAPPED BEARS   3.6
+ 668     3d   0.29%  █           ð³ 43.9M    TRAPPED BULLS   3.6
+ 668     6d   0.29%  █           ð³ 23.5M    TRAPPED BEARS   2.9
+ 668     6d   0.29%  █           ð³ 6.6M     TRAPPED BULLS   2.9
+ 668     7d   0.29%  █           ð³ 21.4M    TRAPPED BEARS   2.7
+ 668     7d   0.29%  █           ð³ 3.9M     TRAPPED BULLS   2.7
+ 668     5d   0.29%  █           ð³ 24.8M    TRAPPED BULLS   2.7
+ 668     5d   0.29%  █           ð³ 49.6M    TRAPPED BEARS   2.7
+ 668     6d   0.29%  █           ð³ 42.6M    TRAPPED BEARS   2.7
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[00:42:10] ✅ Live Greeks Enriched.
+[00:42:10] ð Bridging Data to Quant Engine...
+[00:42:10] ✅ Quant Bridge Exported.
+[00:42:11] ✅ Loaded Verified Chain: 693 unique strikes (Aggregated)
+[00:42:11] ✅ Walls Context Processed (Internal Tracker Updated).
+[00:42:11] ✅ Analysis Complete.
+[00:42:14] ✅ Cycle Ready.
+                                                                                                                                                                                  ▏^p palette

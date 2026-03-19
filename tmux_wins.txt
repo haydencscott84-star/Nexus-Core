@@ -1,0 +1,30 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tmux list-windows -t nexus
+
+root@<YOUR_VPS_IP>'s password: 
+0: CONTROL (1 panes) [148x41] [layout b37d,148x41,0,0,0] @0
+1: TS_NEXUS (1 panes) [174x46] [layout 71e1,174x46,0,0,276] @276
+2: WATCHTOWER (1 panes) [148x41] [layout d9f1,148x41,0,0,41] @41
+3: SWEEPS_V3 (1 panes) [210x53] [layout 6e88,210x53,0,0,275] @275
+4: GREEKS (1 panes) [148x41] [layout 6d2f,148x41,0,0,236] @236
+5: NOTIFICATIONS (1 panes) [148x41] [layout ed2e,148x41,0,0,226] @226
+6: SPY_PROF (1 panes) [148x41] [layout 2d2b,148x41,0,0,113] @113
+7: STRUCTURE (1 panes) [148x41] [layout 2d30,148x41,0,0,118] @118
+8: ANALYZE_SNAPSHOTS (1 panes) [190x45] [layout f07b,190x45,0,0,242] @242
+9: ALERTS (1 panes) [148x41] [layout d9f6,148x41,0,0,46] @46
+10: BRIDGE (1 panes) [148x41] [layout 59ef,148x41,0,0,10] @10
+11: HUNTER (1 panes) [148x41] [layout d9f7,148x41,0,0,47] @47
+12: AUDITOR (1 panes) [148x41] [layout 6d30,148x41,0,0,237] @237
+13: UW_NEXUS (1 panes) [148x41] [layout d9f8,148x41,0,0,48] @48
+14: TRADER_DASH (1 panes) [148x41] [layout ed2b,148x41,0,0,223] @223
+15: SPREADS* (1 panes) [210x53] [layout 6e8a,210x53,0,0,277] @277 (active)
+16: VIEWER_DASH- (1 panes) [210x53] [layout ee8b,210x53,0,0,269] @269
+17: MTF_NEXUS (1 panes) [148x41] [layout 6d2a,148x41,0,0,231] @231
+18: DEBIT_SNIPER (1 panes) [148x41] [layout 6d2b,148x41,0,0,232] @232
+19: SPX_PROF (1 panes) [210x53] [layout 6e83,210x53,0,0,270] @270
+20: GUARDIAN (1 panes) [148x41] [layout ad2c,148x41,0,0,143] @143
+21: HEDGE! (1 panes) [148x41] [layout d9f0,148x41,0,0,21] @21
+22: WATCHDOG (1 panes) [148x41] [layout d9f1,148x41,0,0,22] @22
+23: SHEETS_BRIDGE (1 panes) [148x41] [layout 2d2f,148x41,0,0,136] @136
+24: GEX_WORKER (1 panes) [148x41] [layout 2d2e,148x41,0,0,135] @135
+26: OI_BOOK (1 panes) [174x46] [layout 71db,174x46,0,0,251] @251
+27: SWEEPS_TAPE (1 panes) [210x53] [layout 6e85,210x53,0,0,272] @272

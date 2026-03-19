@@ -1,0 +1,5 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tail -n 50 /root/logs/nexus_spreads.log || tail -n 50 /root/nexus_spreads.log
+
+root@<YOUR_VPS_IP>'s password: 
+tail: cannot open '/root/logs/nexus_spreads.log' for reading: No such file or directory
+tail: cannot open '/root/nexus_spreads.log' for reading: No such file or directory

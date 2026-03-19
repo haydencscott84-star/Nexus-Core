@@ -1,0 +1,8 @@
+invalid command name "'https://spreadsheets.google.com/feeds',"
+    while executing
+"'https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive'"
+    invoked from within
+"spawn ssh -o StrictHostKeyChecking=no $user@$host "python3 -c \"
+import json, gspread
+from oauth2client.service_account import ServiceAccountCredentia..."
+    (file "fix_headers.exp" line 7)

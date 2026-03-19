@@ -1,0 +1,70 @@
+# ========================================
+# Nexus Core: Strict GitIgnore Policy
+# ========================================
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs & Databases
+logs/
+*.log
+*.sqlite3
+*.db
+supabase_cache/
+ts_cache/
+
+# Execution & Automation (Protecting SSH Macros)
+*.exp
+*.sh
+*.command
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials
+credentials.json
+secrets/
+auth/
+*.json

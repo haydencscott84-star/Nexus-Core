@@ -1,0 +1,5 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> pwdx $(pgrep -f 'ts_nexus.py --headless' | head -n 1) && ls -lah /root/ts_nexus.py
+
+root@<YOUR_VPS_IP>'s password: 
+2212067: /root
+-rw------- 1 501 staff 101K Mar 12 14:50 /root/ts_nexus.py

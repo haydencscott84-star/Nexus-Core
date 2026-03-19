@@ -1,0 +1,142 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP>
+
+root@<YOUR_VPS_IP>'s password: 
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-164-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Jan 16 07:33:42 PM UTC 2026
+
+  System load:  2.9                 Processes:               236
+  Usage of /:   17.7% of 140.10GB   Users logged in:         1
+  Memory usage: 48%                 IPv4 address for enp1s0: <YOUR_VPS_IP>
+  Swap usage:   20%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+3 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+12 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Fri Jan 16 19:35:00 2026 from 83.136.182.30
+
+[?2004h]0;root@vultr: ~root@vultr:~# tail -n 100 nexus_engine.log
+[?2004l
+[19:34:32] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xaf']
+[19:34:32] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bJ\xb0']
+[19:34:32] DEBUG: Fetching positions for 11741346...
+[19:34:32] DEBUG: Got 6 positions. Sending reply...
+[19:34:32] DEBUG: Reply sent successfully.
+[19:34:34] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:34] DEBUG: Fetching positions for 210VGM01...
+[19:34:34] DEBUG: Got 0 positions. Sending reply...
+[19:34:34] DEBUG: Reply sent successfully.
+[19:34:34] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xb1']
+[19:34:34] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bJ\xb2']
+[19:34:34] HEARTBEAT: SPY=$692.45 | Risk Rules: 8
+[19:34:36] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:36] DEBUG: Fetching positions for 210VGM01...
+[19:34:36] DEBUG: Got 0 positions. Sending reply...
+[19:34:36] DEBUG: Reply sent successfully.
+[19:34:36] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xb3']
+[19:34:37] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bJ\xb4']
+[19:34:37] DEBUG: Fetching positions for 11741346...
+[19:34:38] DEBUG: Got 0 positions. Sending reply...
+[19:34:38] DEBUG: Reply sent successfully.
+[19:34:38] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:38] DEBUG: Fetching positions for 210VGM01...
+[19:34:39] DEBUG: Got 0 positions. Sending reply...
+[19:34:39] DEBUG: Reply sent successfully.
+[19:34:39] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xb5']
+[19:34:39] HEARTBEAT: SPY=$692.44 | Risk Rules: 8
+[19:34:39] RISK CHECK: Scanning 8 rules against SPY 692.44
+[19:34:41] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:41] DEBUG: Fetching positions for 210VGM01...
+[19:34:41] DEBUG: Got 0 positions. Sending reply...
+[19:34:41] DEBUG: Reply sent successfully.
+[19:34:41] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xb6']
+[19:34:43] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bJ\xb7']
+[19:34:43] DEBUG: Fetching positions for 11741346...
+[19:34:43] DEBUG: Got 0 positions. Sending reply...
+[19:34:43] DEBUG: Reply sent successfully.
+[19:34:43] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bJ\xb8']
+[19:34:43] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:43] DEBUG: Fetching positions for 210VGM01...
+[19:34:44] DEBUG: Got 0 positions. Sending reply...
+[19:34:44] DEBUG: Reply sent successfully.
+[19:34:44] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xb9']
+[19:34:44] HEARTBEAT: SPY=$692.47 | Risk Rules: 8
+[19:34:45] ðµ️ [AUTO-MGR] Checking SPY260206C705 (CREDIT) | Net P/L: 3.7% (Qty: 5)
+[19:34:45] ðµ️ [AUTO-MGR] Checking SPY260206P675 (CREDIT) | Net P/L: 22.1% (Qty: 4)
+[19:34:46] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:46] DEBUG: Fetching positions for 210VGM01...
+[19:34:46] DEBUG: Got 0 positions. Sending reply...
+[19:34:46] DEBUG: Reply sent successfully.
+[19:34:46] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xba']
+[19:34:48] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bJ\xbb']
+[19:34:48] DEBUG: Fetching positions for 11741346...
+[19:34:49] DEBUG: Got 0 positions. Sending reply...
+[19:34:49] DEBUG: Reply sent successfully.
+[19:34:49] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:49] DEBUG: Fetching positions for 210VGM01...
+[19:34:49] DEBUG: Got 0 positions. Sending reply...
+[19:34:49] DEBUG: Reply sent successfully.
+[19:34:49] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xbc']
+[19:34:49] HEARTBEAT: SPY=$692.49 | Risk Rules: 8
+[19:34:49] RISK CHECK: Scanning 8 rules against SPY 692.487
+[19:34:50] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bJ\xbd']
+[19:34:51] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:51] DEBUG: Fetching positions for 210VGM01...
+[19:34:52] DEBUG: Got 0 positions. Sending reply...
+[19:34:52] DEBUG: Reply sent successfully.
+[19:34:52] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xbe']
+[19:34:54] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bJ\xbf']
+[19:34:54] DEBUG: Fetching positions for 11741346...
+[19:34:54] DEBUG: Got 0 positions. Sending reply...
+[19:34:54] DEBUG: Reply sent successfully.
+[19:34:54] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:54] DEBUG: Fetching positions for 210VGM01...
+[19:34:55] HEARTBEAT: SPY=$692.44 | Risk Rules: 8
+[19:34:55] DEBUG: Got 0 positions. Sending reply...
+[19:34:55] DEBUG: Reply sent successfully.
+[19:34:55] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xc0']
+[19:34:57] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:34:57] DEBUG: Fetching positions for 210VGM01...
+[19:34:57] DEBUG: Got 0 positions. Sending reply...
+[19:34:57] DEBUG: Reply sent successfully.
+[19:34:57] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xc1']
+[19:34:59] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bJ\xc2']
+[19:34:59] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bJ\xc3']
+[19:34:59] DEBUG: Fetching positions for 11741346...
+[19:35:00] HEARTBEAT: SPY=$692.44 | Risk Rules: 8
+[19:35:00] RISK CHECK: Scanning 8 rules against SPY 692.44
+[19:35:00] DEBUG: Got 0 positions. Sending reply...
+[19:35:00] DEBUG: Reply sent successfully.
+[19:35:00] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:35:00] DEBUG: Fetching positions for 210VGM01...
+[19:35:00] DEBUG: Got 0 positions. Sending reply...
+[19:35:00] DEBUG: Reply sent successfully.
+[19:35:01] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xc4']
+[19:35:02] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1768590128.394103']
+[19:35:02] DEBUG: Fetching positions for 210VGM01...
+[19:35:03] DEBUG: Got 0 positions. Sending reply...
+[19:35:03] DEBUG: Reply sent successfully.
+[19:35:03] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bJ\xc5']
+[?2004h]0;root@vultr: ~root@vultr:~# exit
+[?2004l
+logout
+Connection to <YOUR_VPS_IP> closed.
+

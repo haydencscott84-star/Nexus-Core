@@ -1,0 +1,3 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tmux capture-pane -t nexus:14 -p | grep -iE 'loading|analyze|magnet'
+
+root@<YOUR_VPS_IP>'s password: 

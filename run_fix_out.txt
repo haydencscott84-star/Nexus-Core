@@ -1,0 +1,10 @@
+spawn scp -o StrictHostKeyChecking=no fix_headers_native.py root@<YOUR_VPS_IP>:/root/
+
+root@<YOUR_VPS_IP>'s password: 
+
+fix_headers_native.py                           0%    0     0.0KB/s   --:-- ETA
+fix_headers_native.py                         100%  568     5.6KB/s   00:00    
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> python3 /root/fix_headers_native.py
+
+root@<YOUR_VPS_IP>'s password: 
+Headers successfully injected.

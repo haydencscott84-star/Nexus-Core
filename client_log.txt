@@ -1,0 +1,92 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP>
+
+root@<YOUR_VPS_IP>'s password: 
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-164-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Jan 16 07:33:42 PM UTC 2026
+
+  System load:  2.9                 Processes:               236
+  Usage of /:   17.7% of 140.10GB   Users logged in:         1
+  Memory usage: 48%                 IPv4 address for enp1s0: <YOUR_VPS_IP>
+  Swap usage:   20%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+3 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+12 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Fri Jan 16 19:34:26 2026 from 83.136.182.30
+
+[?2004h]0;root@vultr: ~root@vultr:~# tail -n 50 debug_debit.log
+[?2004l
+2026-01-16 19:12:45.290430 Entering populate_from_snapshot
+2026-01-16 19:12:45.290755 Processing group 0: CREDIT CALL SPY 260206C715/SPY 260206C705
+2026-01-16 19:12:45.293126 Added row 0
+2026-01-16 19:12:45.293157 Processing group 1: CREDIT PUT SPY 260206P670/SPY 260206P675
+2026-01-16 19:12:45.293241 Added row 1
+2026-01-16 19:12:45.293262 Processing group 2: DEBIT CALL SPY 260220C675/SPY 260220C705
+2026-01-16 19:12:45.293327 Added row 2
+2026-01-16 19:22:02.597625 START load_initial_data
+2026-01-16 19:22:02.597688 CWD: /root | Path: nexus_portfolio.json | Exists: True
+2026-01-16 19:22:02.597707 Opening file...
+2026-01-16 19:22:02.597821 Loaded JSON. Keys: ['script', 'timestamp', 'account_metrics', 'grouped_positions', 'ungrouped_positions', 'active_trade', 'risk_profile']
+2026-01-16 19:22:02.597949 Found grouped_positions: 3
+2026-01-16 19:22:02.597969 Entering populate_from_snapshot
+2026-01-16 19:22:02.598133 Processing group 0: CREDIT CALL SPY 260206C715/SPY 260206C705
+2026-01-16 19:22:02.676120 Added row 0
+2026-01-16 19:22:02.676167 Processing group 1: CREDIT PUT SPY 260206P670/SPY 260206P675
+2026-01-16 19:22:02.676252 Added row 1
+2026-01-16 19:22:02.676272 Processing group 2: DEBIT CALL SPY 260220C675/SPY 260220C705
+2026-01-16 19:22:02.676339 Added row 2
+2026-01-16 19:25:03.688944 START load_initial_data
+2026-01-16 19:25:03.689037 CWD: /root | Path: nexus_portfolio.json | Exists: True
+2026-01-16 19:25:03.689061 Opening file...
+2026-01-16 19:25:03.689136 Loaded JSON. Keys: ['script', 'timestamp', 'account_metrics', 'grouped_positions', 'ungrouped_positions', 'active_trade', 'risk_profile']
+2026-01-16 19:25:03.689247 Found grouped_positions: 0
+2026-01-16 19:25:03.689274 Entering populate_from_snapshot
+2026-01-16 19:26:58.190589 Buying 1x Spreads...
+2026-01-16 19:26:58.191050 Payload: {'cmd': 'EXECUTE_SPREAD', 'side': 'BUY', 'long_sym': 'SPY 260220C720', 'short_sym': 'SPY 260220C690', 'qty': 1, 'price': 12.49}
+2026-01-16 19:26:58.191502 Buying 1x Spreads...
+2026-01-16 19:26:58.191766 Payload: {'cmd': 'EXECUTE_SPREAD', 'side': 'BUY', 'long_sym': 'SPY 260220C720', 'short_sym': 'SPY 260220C690', 'qty': 1, 'price': 12.49}
+2026-01-16 19:29:12.985336 START load_initial_data
+2026-01-16 19:29:12.985420 CWD: /root | Path: nexus_portfolio.json | Exists: True
+2026-01-16 19:29:12.985444 Opening file...
+2026-01-16 19:29:12.985564 Loaded JSON. Keys: ['script', 'timestamp', 'account_metrics', 'grouped_positions', 'ungrouped_positions', 'active_trade', 'risk_profile']
+2026-01-16 19:29:12.985722 Found grouped_positions: 0
+2026-01-16 19:29:12.985892 Entering populate_from_snapshot
+2026-01-16 19:30:36.391481 Buying 1x Spreads...
+2026-01-16 19:30:36.396622 Payload: {'cmd': 'EXECUTE_SPREAD', 'side': 'BUY', 'long_sym': 'SPY 260220C710', 'short_sym': 'SPY 260220C690', 'qty': 1, 'price': 10.290000000000001}
+2026-01-16 19:30:36.596793 Reply: {'status': 'error', 'msg': 'Execution Failed'}
+2026-01-16 19:30:39.200284 Buying 1x Spreads...
+2026-01-16 19:30:39.200572 Payload: {'cmd': 'EXECUTE_SPREAD', 'side': 'BUY', 'long_sym': 'SPY 260220C710', 'short_sym': 'SPY 260220C690', 'qty': 1, 'price': 10.290000000000001}
+2026-01-16 19:30:39.384028 Reply: {'status': 'error', 'msg': 'Execution Failed'}
+2026-01-16 19:30:45.275351 Buying 1x Spreads...
+2026-01-16 19:30:45.275659 Payload: {'cmd': 'EXECUTE_SPREAD', 'side': 'BUY', 'long_sym': 'SPY 260220C710', 'short_sym': 'SPY 260220C690', 'qty': 1, 'price': 10.290000000000001}
+2026-01-16 19:30:45.598325 Reply: {'status': 'error', 'msg': 'Execution Failed'}
+2026-01-16 19:30:48.483042 Buying 1x Spreads...
+2026-01-16 19:30:48.483337 Payload: {'cmd': 'EXECUTE_SPREAD', 'side': 'BUY', 'long_sym': 'SPY 260220C710', 'short_sym': 'SPY 260220C690', 'qty': 1, 'price': 10.290000000000001}
+2026-01-16 19:30:48.679460 Reply: {'status': 'error', 'msg': 'Execution Failed'}
+2026-01-16 19:30:54.890872 Buying 1x Spreads...
+2026-01-16 19:30:54.891278 Payload: {'cmd': 'EXECUTE_SPREAD', 'side': 'BUY', 'long_sym': 'SPY 260220C710', 'short_sym': 'SPY 260220C690', 'qty': 1, 'price': 10.290000000000001}
+2026-01-16 19:30:55.286956 Reply: {'status': 'error', 'msg': 'Execution Failed'}
+[?2004h]0;root@vultr: ~root@vultr:~# exit
+[?2004l
+logout
+Connection to <YOUR_VPS_IP> closed.
+

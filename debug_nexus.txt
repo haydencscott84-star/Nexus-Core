@@ -1,0 +1,54 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tail -n 50 /root/logs/ts_nexus.log || tail -n 50 /root/nexus_engine.log
+
+root@<YOUR_VPS_IP>'s password: 
+tail: cannot open '/root/logs/ts_nexus.log' for reading: No such file or directory
+[15:00:34] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:34] DEBUG: Fetching positions for 210VGM01...
+[15:00:34] RAW POSITIONS for 210VGM01: []
+[15:00:34] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bG_']
+[15:00:35] HEARTBEAT: SPY=$668.47 | Risk Rules: 22 | RAM: GC OK
+[15:00:35] RISK CHECK: Scanning 22 rules against SPY 668.465
+[15:00:36] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:36] DEBUG: Fetching positions for 210VGM01...
+[15:00:36] RAW POSITIONS for 210VGM01: []
+[15:00:36] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bG`']
+[15:00:36] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bGa']
+[15:00:38] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bGb']
+[15:00:38] DEBUG: Fetching positions for 11741346...
+[15:00:38] RAW POSITIONS for 11741346: []
+[15:00:38] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:38] DEBUG: Fetching positions for 210VGM01...
+[15:00:38] RAW POSITIONS for 210VGM01: []
+[15:00:38] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bGc']
+[15:00:39] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bGd']
+[15:00:40] HEARTBEAT: SPY=$668.30 | Risk Rules: 22 | RAM: GC OK
+[15:00:40] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:40] DEBUG: Fetching positions for 210VGM01...
+[15:00:40] RAW POSITIONS for 210VGM01: []
+[15:00:40] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bGe']
+[15:00:42] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:42] DEBUG: Fetching positions for 210VGM01...
+[15:00:43] RAW POSITIONS for 210VGM01: []
+[15:00:43] CMD RECEIVED: {'cmd': 'GET_MULTI_QUOTE', 'symbols': ['SPY 260313P660', 'SPY 260313P655']} [ID: b'\x00k\x8bGf']
+[15:00:43] CMD RECEIVED: {'cmd': 'GET_MANAGED_SPREADS'} [ID: b'\x00k\x8bGg']
+[15:00:43] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bGh']
+[15:00:43] DEBUG: Fetching positions for 11741346...
+[15:00:43] RAW POSITIONS for 11741346: []
+[15:00:43] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bGi']
+[15:00:43] CMD RECEIVED: {'cmd': 'GET_POSITIONS'} [ID: b'\x00k\x8bGj']
+[15:00:43] DEBUG: Fetching positions for 11741346...
+[15:00:44] RAW POSITIONS for 11741346: []
+[15:00:45] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:45] DEBUG: Fetching positions for 210VGM01...
+[15:00:45] RAW POSITIONS for 210VGM01: []
+[15:00:45] HEARTBEAT: SPY=$668.16 | Risk Rules: 22 | RAM: GC OK
+[15:00:45] RISK CHECK: Scanning 22 rules against SPY 668.1554
+[15:00:46] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bGk']
+[15:00:47] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:47] DEBUG: Fetching positions for 210VGM01...
+[15:00:47] RAW POSITIONS for 210VGM01: []
+[15:00:49] CMD RECEIVED: {'cmd': 'GET_POSITIONS', 'account_id': '210VGM01'} [ID: b'HEDGE_POS_1773327138.682297']
+[15:00:49] DEBUG: Fetching positions for 210VGM01...
+[15:00:49] RAW POSITIONS for 210VGM01: []
+[15:00:50] CMD RECEIVED: {'cmd': 'GET_OPEN_ORDERS'} [ID: b'\x00k\x8bGl']
+[15:00:50] HEARTBEAT: SPY=$668.24 | Risk Rules: 22 | RAM: GC OK

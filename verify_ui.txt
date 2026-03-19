@@ -1,0 +1,9 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> cat /root/nexus_engine.log | grep GET_CHAIN | tail -n 10
+
+root@<YOUR_VPS_IP>'s password: 
+[14:38:54] CMD RECEIVED: {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '660', 'width': '5', 'type': 'PUT'} [ID: b'\x00k\x8bEg']
+[15:02:01] CMD RECEIVED: {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '660', 'width': '5', 'type': 'PUT'} [ID: b'\x00k\x8bG\x9e']
+[16:08:20] CMD RECEIVED: {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '660', 'width': '5', 'type': 'PUT'} [ID: b'\x00k\x8bV\xaf']
+[16:11:18] CMD RECEIVED: {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '660', 'width': '5', 'type': 'PUT'} [ID: b'\x00k\x8bV^']
+[16:14:00] CMD RECEIVED: {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '680', 'width': '5', 'type': 'PUT'} [ID: b'\x00k\x8bV^']
+[16:14:11] CMD RECEIVED: {'cmd': 'GET_CHAIN', 'ticker': 'SPY', 'strike': '680', 'width': '5', 'type': 'CALL'} [ID: b'\x00k\x8bV^']

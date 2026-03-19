@@ -1,0 +1,33 @@
+
+import subprocess
+import time
+
+host = "root@45.77.204.159"
+pw = r"$K8w$AF%f={*@{F?"
+local_file = "universal_wysiwyg_patch.py"
+remote_file = "/root/apply_universal.py"
+
+# Read local content
+with open(local_file, 'r') as f:
+    content = f.read()
+
+# Construct command: ssh user@host "cat > remote" <<EOF
+# But we can't easily do <<EOF with subprocess without shell=True and escaping issues.
+# Better: Use subprocess.run with input=content.
+
+# 1. Upload
+print(f"Uploading {len(content)} bytes to {remote_file}...")
+cmd_upload = ["ssh", host, f"cat > {remote_file}"]
+# We need to handle password. But we are in a non-interactive shell? 
+# The environment might have sshpass or we assume key auth? 
+# No, the user provides password. 
+# We must use pexpect or similar if we need password. 
+# But wait, run_command tool handles `ssh` commands by asking for input if it detects password prompt.
+# BUT, `run_command` doesn't support passing generic input to stdin of the ssh process effectively for file transfer?
+# Actually default_api:run_command spawns a shell.
+# If I run `run_command` with `cat local | ssh ... "cat > remote"`, it should work IF I can pipe.
+
+# Code to be run by the agent via run_command tool:
+# cat universal_wysiwyg_patch.py | ssh root@45.77.204.159 "cat > /root/apply_universal.py"
+
+pass

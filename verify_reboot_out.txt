@@ -1,0 +1,49 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tmux capture-pane -t nexus:8 -p; ls -lah /root/nexus_history.json
+
+root@<YOUR_VPS_IP>'s password: 
+ Strategic Narrative:┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                     │ Loading Narrative...
+ Market Regime:ANALYZING...  | SPX:$6,670.67  | SPY:$0.00  | RVOL:D:1.2x H:1.3x  | Div:NONE  Last Updated:-  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+                                                                                                                 REFRESH
+                                                                                                             ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ Whale/Retail Traps  Market Structure
+╸━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ STRIKE        DTE  DIST%  IMPACT      NET Δ       STATUS          PANIC
+ 6680 [667.0]  2d   0.14%  ██          ð³ 300.6M   ð ROCKET FUEL  19.2 ð¥
+ 6680 [667.0]  2d   0.14%  █           ð³ 134.1M   ð RESISTANCE   19.2 ð¥
+ 6680 [667.0]  5d   0.14%  █           ð³ 33.7M    TRAPPED BULLS   8.1                                                                                                                       ▅
+ 6680 [667.0]  5d   0.14%  █           ð³ 115.7M   TRAPPED BEARS   8.1
+ 6680 [667.0]  6d   0.14%  █           ð³ 149.6M   TRAPPED BEARS   7.6
+ 6680 [667.0]  8d   0.14%  █           ð³ 194.1M   TRAPPED BEARS   7.1
+ 6680 [667.0]  7d   0.14%  █           ð³ 157.9M   TRAPPED BEARS   7.3
+ 6680 [667.0]  7d   0.14%  █           ð³ 21.0M    TRAPPED BULLS   7.3
+ 6680 [667.0]  6d   0.14%  █           ð³ 2.3M     TRAPPED BULLS   7.6
+ 6675 [666.5]  2d   0.06%  █           ð³ 69.0M    ð RESISTANCE   19.3 ð¥
+ 6675 [666.5]  6d   0.06%  █           ð³ 114.7M   TRAPPED BEARS   7.6
+ 6675 [666.5]  6d   0.06%  █           ð³ 28.7M    TRAPPED BULLS   7.6
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ STRIKE  DTE  DIST%  IMPACT      NET Δ       STATUS         PANIC
+ 668     2d   0.29%  █           ð³ 23.9M    TRAPPED BULLS  6.2
+ 668     2d   0.29%  █           ð³ 182.6M   TRAPPED BEARS  6.2
+ 668     6d   0.29%  █           ð³ 6.6M     TRAPPED BULLS  2.9                                                                                                                              ▁
+ 668     6d   0.29%  █           ð³ 23.5M    TRAPPED BEARS  2.9
+ 668     5d   0.29%  █           ð³ 21.8M    TRAPPED BULLS  3.4
+ 668     5d   0.29%  █           ð³ 88.8M    TRAPPED BEARS  3.4
+ 668     8d   0.29%  █           ð³ 9.1M     TRAPPED BULLS  2.4
+ 668     8d   0.29%  █           ð³ 9.8M     TRAPPED BEARS  2.4
+ 668     7d   0.29%  █           ð³ 21.4M    TRAPPED BEARS  2.7
+ 668     7d   0.29%  █           ð³ 3.9M     TRAPPED BULLS  2.7
+ 668     12d  0.29%  █           ð³ 2.7M     TRAPPED BEARS  1.9
+ 668     9d   0.29%  █           ð³ 143.9M   TRAPPED BEARS  2.2
+ 668     9d   0.29%  █           ð³ 18.4M    TRAPPED BULLS  2.2
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[00:55:04] ✅ Active Traps Updated.
+[00:55:04] Safety Bridge: Active (Port 5559)
+[00:55:04] Sentinel: Active (30s Scan)
+[00:55:04] ⏳ Loading 5-Day History in Background...
+[00:55:04] Nexus Feed: Connected (Port 5555)
+[00:55:04] API Fallback: Fetching SPY Snapshot...
+[00:55:05] API Fallback: SPY $666.06
+                                                                                                                                                                                  ▏^p palette
+-rw-r--r-- 1 root root 729 Mar 13 04:41 /root/nexus_history.json

@@ -1,0 +1,2 @@
+ticker,parsed_expiry,parsed_strike,parsed_type,total_premium,total_size,open_interest
+SPY,2025-12-20,600,CALL,5000,100,0

@@ -1,0 +1,23 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> tmux capture-pane -t nexus:8 -p | tail -n 20
+
+root@<YOUR_VPS_IP>'s password: 
+ 668     5d   0.29%  █           ð³ 88.8M    TRAPPED BEARS   3.4                                                                                                                             ▁
+ 668     5d   0.29%  █           ð³ 21.8M    TRAPPED BULLS   3.4
+ 668     3d   0.29%  █           ð³ 57.7M    TRAPPED BEARS   3.6
+ 668     3d   0.29%  █           ð³ 43.9M    TRAPPED BULLS   3.6
+ 668     6d   0.29%  █           ð³ 23.5M    TRAPPED BEARS   2.9
+ 668     6d   0.29%  █           ð³ 6.6M     TRAPPED BULLS   2.9
+ 668     7d   0.29%  █           ð³ 21.4M    TRAPPED BEARS   2.7
+ 668     7d   0.29%  █           ð³ 3.9M     TRAPPED BULLS   2.7
+ 668     5d   0.29%  █           ð³ 24.8M    TRAPPED BULLS   2.7
+ 668     5d   0.29%  █           ð³ 49.6M    TRAPPED BEARS   2.7
+ 668     6d   0.29%  █           ð³ 42.6M    TRAPPED BEARS   2.7
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[00:42:10] ✅ Live Greeks Enriched.
+[00:42:10] ð Bridging Data to Quant Engine...
+[00:42:10] ✅ Quant Bridge Exported.
+[00:42:11] ✅ Loaded Verified Chain: 693 unique strikes (Aggregated)
+[00:42:11] ✅ Walls Context Processed (Internal Tracker Updated).
+[00:42:11] ✅ Analysis Complete.
+[00:42:14] ✅ Cycle Ready.
+                                                                                                                                                                                  ▏^p palette

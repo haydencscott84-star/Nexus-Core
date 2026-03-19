@@ -1,0 +1,7 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> ps aux | grep ts_nexus.py
+
+root@<YOUR_VPS_IP>'s password: 
+root     2211825  1.6  0.3  34392 25040 pts/27   Ss+  14:50   0:00 python3 robust_wrapper.py python3 ts_nexus.py --headless
+root     2211832 26.3  0.6 505600 51140 pts/27   Sl+  14:50   0:05 python3 ts_nexus.py --headless
+root     2211961  0.0  0.0   7372  3696 ?        Ss   14:51   0:00 bash -c ps aux | grep ts_nexus.py
+root     2211963  0.0  0.0   6616  2252 ?        S    14:51   0:00 grep ts_nexus.py

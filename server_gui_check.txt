@@ -1,0 +1,4 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> cat /root/nexus_spreads.py | grep -iE 'iv =' || true
+
+root@<YOUR_VPS_IP>'s password: 
+                iv = reply.get("iv", 0)

@@ -1,0 +1,8 @@
+spawn ssh -o StrictHostKeyChecking=no root@<YOUR_VPS_IP> ps aux | grep nexus_spreads.py && tmux ls
+
+root@<YOUR_VPS_IP>'s password: 
+root     1114582  0.0  0.0  34396    80 pts/11   Ss+  Feb09   0:00 python3 robust_wrapper.py python3 nexus_spreads.py
+root     1114584 20.3 16.9 2235836 1374972 pts/11 Sl+ Feb09 9230:14 python3 nexus_spreads.py
+root     2221984  0.0  0.0   7372  3608 ?        Ss   16:04   0:00 bash -c ps aux | grep nexus_spreads.py && tmux ls
+root     2221986  0.0  0.0   6620  2292 ?        S    16:04   0:00 grep nexus_spreads.py
+nexus: 27 windows (created Tue Jan 27 22:13:55 2026) (attached)
